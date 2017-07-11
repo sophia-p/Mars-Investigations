@@ -21,31 +21,9 @@ $pinkish: #F40051;
   }
 }
 
-h1 {
-  margin-bottom: 15px;
+.logo {
+  height: 250px;
+  width: auto;
 }
-
-p, li {
-  font-size: 18px;
-}
-
-a {
-  color: $orange;
-  &:hover {
-    text-decoration: none;
-    color: darken($orange, 7%);
-  }
-}
-
-li a {
-  color: $pinkish;
-  &:visited {
-    color: $pinkish;
-  }
-  &:hover {
-    color: darken($pinkish, 7%);
-  }
-}
-
 
 
