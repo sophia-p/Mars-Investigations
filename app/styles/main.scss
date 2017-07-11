@@ -1,0 +1,51 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import 'variables';
+@import 'utilities';
+@import 'components';
+@import 'header';
+@import 'footer';
+
+$orange: #FB8C00;
+$pinkish: #F40051;
+
+.container {
+  padding-top: 15px;
+  max-width: 850px;
+  @media screen and (max-width: $screen-xs-max) {
+    padding-top: 0;
+  }
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+a {
+  color: $orange;
+  &:hover {
+    text-decoration: none;
+    color: darken($orange, 7%);
+  }
+}
+
+li a {
+  color: $pinkish;
+  &:visited {
+    color: $pinkish;
+  }
+  &:hover {
+    color: darken($pinkish, 7%);
+  }
+}
+
+
+
