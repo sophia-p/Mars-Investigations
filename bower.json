@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "modernizr": "~2.8.1",
-    "parallax.js": "^1.4.2"
+    "parallax.js": "^1.4.2",
+    "parallax": "https://github.com/wagerfield/parallax"
   },
   "overrides": {
     "bootstrap-sass": {

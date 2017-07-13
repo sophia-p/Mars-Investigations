@@ -45,5 +45,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "parallax-js": "git+https://github.com/wagerfield/parallax.git"
   }
 }
